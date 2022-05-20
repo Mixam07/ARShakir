@@ -1,0 +1,52 @@
+.choice{
+  margin-bottom: 150px;
+  margin-top: 55px;
+  position: relative;
+  &__container{
+    padding: 0 50px;
+  }
+  &__icons{
+    padding-top: 50px;
+    margin-bottom:100px;
+    opacity: 0.3;
+    display: flex;
+    justify-content: space-around;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  &__subtitle{
+    margin: 15px 0 50px 0;
+  }
+  &__items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 35px 50px;
+    margin-bottom: 15px;
+  }
+  &__item{
+    padding-left: 50px;
+    position: relative;
+  }
+  &__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__name{
+    font-size: 18px;
+    line-height: 22px;
+    color: #99EFD0;
+    margin-bottom: 10px;
+  }
+  &__decoration{
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 572px;
+  }
+}

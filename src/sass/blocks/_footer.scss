@@ -1,0 +1,108 @@
+.footer{
+  position: relative;
+  padding-top: 45px;
+  &__container{
+    max-width: 990px;
+  }
+  &__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+  }
+  &__social{
+    display: flex;
+  }
+  &__href{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #F6F6F6;
+    background: rgba(246,246,246,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+  }
+  &__body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    color: #FFFFFF;
+    font-family: Inter;
+  }
+  &__desc{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+  }
+  &__li{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-bottom: 16px;
+  }
+  &__law{
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #8D8D8D;
+    a{
+      color: #8D8D8D;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+  &__wrapper{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 90px;
+    z-index: -1;
+    overflow: hidden;
+  }
+  &__item{
+    display: block;
+    padding: 5px 17px;
+  }
+  &__circle{
+    background: radial-gradient(49.99% 49.99% at 50% 50%, #DE0000 56.42%, #DA0000 63.13%, #D00000 69.07%, #BE0000 74.73%, #A40000 80.21%, #830000 85.56%, #5B0000 90.82%, #2C0000 95.9%, #000000 100%);
+    width: 267px;
+    height: 267px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+  }
+  &__decoration{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  &__circles{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 2040px;
+    min-height: 1112px;
+  }
+}

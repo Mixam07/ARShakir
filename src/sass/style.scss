@@ -1,0 +1,44 @@
+@import "base/nullstyle";
+@import "base/mixins";
+@import "base/variables";
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+body{
+    font-family: Inter;
+    font-weight: bold;
+    background: #0F1145;
+    //background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%) #0F1145;
+}
+.point{
+    display: block;
+    margin: 0 auto;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: #96A8EA;
+}
+.special__circle{
+    background-color: #13C296;
+}
+
+@import "blocks/header";
+@import "blocks/panel";
+@import "blocks/title";
+@import "blocks/project";
+@import "blocks/help";
+@import "blocks/info";
+@import "blocks/circle";
+@import "blocks/choice";
+@import "blocks/reasons";
+@import "blocks/footer";
+@import "blocks/invest";
+@import "blocks/promo";
+@import "blocks/sticks";
+@import "blocks/traffic";
+@import "blocks/subtitle";
+@import "blocks/button";
+@import "blocks/media"

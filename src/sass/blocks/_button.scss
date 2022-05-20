@@ -1,0 +1,47 @@
+.btn{
+  background: #F2994A;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 3px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F2994A;
+  &_112{
+    min-width: 112px;
+    min-height: 36px;
+  }
+  &_128{
+    min-width: 128px;
+    min-height: 56px;
+  }
+  &_157{
+    min-width: 157px;
+    min-height: 46px;
+  }
+  &_155{
+    min-width: 155px;
+    min-height: 48px;
+  }
+  &_164{
+    min-width: 164px;
+    min-height: 54px;
+  }
+}
+.bg_none{
+  background: none;
+  box-shadow: none;
+  color: #F2994A;
+}
+.btns{
+  display: flex;
+  button:last-child{
+    margin-left: 20px;
+  }
+}

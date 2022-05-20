@@ -1,0 +1,29 @@
+.info{
+  margin-bottom: 170px;
+  &__subtitle{
+    max-width: 400px;
+    text-align: center;
+    margin: 30px auto 50px auto;
+  }
+  &__items{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    font-family: Inter;
+    width: 290px;
+  }
+  &__name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.33px;
+    margin-bottom: 15px;
+    color: #99EFD0;
+  }
+  .subtitle_fz15_20{
+    width: 290px;
+    margin: 0 auto;
+  }
+}

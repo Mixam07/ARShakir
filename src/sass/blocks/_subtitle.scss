@@ -1,0 +1,28 @@
+.subtitle{
+  color: #8476AA;
+  line-height: 22px;
+  &_fz18{
+    font-size: 18px;
+  }
+  &_fz16{
+    font-size: 16px;
+    text-align: center;
+  }
+  &_fz15{
+    font-size: 15px;
+    &_28{
+      line-height: 28px;
+      letter-spacing: 0.5px;
+    }
+    &_20{
+      line-height: 20px;
+      letter-spacing: 0.2px;
+    }
+  }
+  &_fz14{
+    font-size: 14px;
+  }
+  &_center{
+    text-align: center;
+  }
+}

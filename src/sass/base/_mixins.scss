@@ -1,0 +1,16 @@
+@mixin sticks {
+  opacity: 0.2;
+  position: absolute;
+  display: block;
+  width: 1px;
+  &:before{
+    position: absolute;
+    content: "";
+    display: block;
+    background: linear-gradient(0deg, #A4FFFF 540.14%, rgba(164, 255, 255, 0) 2087.89%);
+    width: 8px;
+    height: 8px;
+    left: -3px;
+    border-radius: 100%;
+  }
+}
